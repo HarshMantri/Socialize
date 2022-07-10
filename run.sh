@@ -3,7 +3,7 @@
 #create docker image for backend
 docker build backend/ --tag socialize-backend:latest
 
-#create docker image for backend
+#create docker image for frontend
 docker build frontend/ --tag socialize-frontend:latest
 
 #start all services
